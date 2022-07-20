@@ -1,0 +1,56 @@
+body {
+    background: gray;
+}
+
+.box {     
+    width: 250px;    
+}
+
+aside {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#element1 {
+    display:flex;
+    justify-content: center; 
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    left: 40%;
+    padding: 16px;
+    top: 55%;
+    z-index: 5;
+    border-radius: 100%;
+}
+
+#element2 {
+    display:flex;
+    justify-content: center; 
+    background-color: yellow;
+    text-align: right;
+    width: 300px;
+    right: 20%;
+    padding: 16px;
+    top: 25%;
+    z-index: 10;
+    border-radius: 25%;
+}
+
+#element3 {
+    display:flex;
+    justify-content: center; 
+    background-color: white;
+    color: #f00;
+    text-align: left;
+    width: 70%;
+    height: 60%;
+    left: 20%;
+    padding: 16px;
+    top: 20%;
+    z-index: 1;
+    border-radius: 5%;
+}
+
